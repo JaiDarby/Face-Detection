@@ -10,7 +10,7 @@ haar_file = 'haarcascade_frontalface_default.xml' #Haar file
 datasets = 'datasets' #All faces in database can be found here
 
 
-sub_data = 'Trey' #Creates sub folder for each name (Make sure to enter new name)  
+sub_data = 'JaiVi' #Creates sub folder for each name (Make sure to enter new name)  
  
 
 path = os.path.join(datasets, sub_data) #Creates the new dataset
@@ -29,7 +29,7 @@ webcam = cv2.VideoCapture(0) #opens web cam
  
 # The program loops until it has 30 images of the face.
 count = 1
-while count < 30: 
+while count < 75: 
 
     (_, im) = webcam.read() #Takes screenshot
 
