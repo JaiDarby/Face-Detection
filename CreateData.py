@@ -10,7 +10,7 @@ haar_file = 'haarcascade_frontalface_default.xml' #Haar file
 datasets = 'datasets' #All faces in database can be found here
 
 
-sub_data = 'JaiVi' #Creates sub folder for each name (Make sure to enter new name)  
+sub_data = 'Person' #Creates sub folder for each name (Make sure to enter new name)  
  
 
 path = os.path.join(datasets, sub_data) #Creates the new dataset
